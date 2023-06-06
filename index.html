@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <!-- Fontawesome  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloock&family=Secular+One&display=swap" rel="stylesheet">
+
+  <title>Travel Diaries</title>
+
+  <!-- FavIcon  -->
+  <link rel="icon" type="image/x-icon"
+    href="https://www.freeiconspng.com/thumbs/travel-icon-png/plane-travel-flight-tourism-travel-icon-png-10.png">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-success navbar-success fixed-top navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-2" href="#"><i class="fa-sharp fa-solid fa-earth-americas"></i> TRAVEL DIARIES</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav ">
+          <li class="nav-item pe-5">
+            <a class="nav-link " href="#">HOME</a>
+          </li>
+          <li class="nav-item pe-5">
+            <a class="nav-link " href="#carouselExampleAutoplaying">TOP DESTINATIONS</a>
+          </li>
+          <li class="nav-item pe-5">
+            <a class="nav-link" href="#blog">BLOGS</a>
+          </li>
+          <li class="nav-item pe-5">
+            <a class="nav-link" href="#traveltips">TIPS</a>
+          </li>
+          <li class="nav-item pe-5">
+            <a class="nav-link" href="#gallery">GALLERY</a>
+          </li>
+          <li class="nav-item pe-5">
+            <a class="nav-link" href="#contact">CONTACT US</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="imagefirst">
+    <div class="bgimg1"><img src="./images/1920x1080-man-hill-forest_1574938639.jpg" class="img-fluid " alt="..."></div>
+    <div class="centered ">
+      <h1 id="quote"> “A SHIP IS SAFE IN THE HARBOR, BUT THAT’S NOT WHAT SHIPS ARE BUILT FOR.”</h1> <br>
+      <h1 id="author" class="text-danger">-GAEL ATTAL</h1>
+    </div>
+  </div>
+
+
+  <!-- //carousel -->
+
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <h2 class="subheadings"><u>TOP DESTINATIONS</u></h2>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="./images/HONG KONG.jpg" class="d-block w-100" height="1000px" alt="...">
+        <div class="carousel-caption d-none d-md-block text-light ">
+          <h5>HONG KONG</h5>
+          <p>Hong Kong, officially the Hong Kong Special Administrative Region of the People's Republic of China, is a
+            city and special administrative region of China on the eastern Pearl River Delta in South China.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./images/BANGKOK.jpg" class="d-block w-100" height="1000px" alt="...">
+        <div class="carousel-caption d-none d-md-block text-light">
+          <h5>BANGKOK</h5>
+          <p>Bangkok, Thailand’s capital, is a large city known for ornate shrines and vibrant street life. The
+            boat-filled Chao Phraya River feeds its network of canals, flowing past the Rattanakosin royal district,
+            home to opulent Grand Palace and its sacred Wat Phra Kaew Temple.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./images/LONDON.jpg" class="d-block w-100" height="1000px" alt="...">
+        <div class="carousel-caption d-none d-md-block text-light">
+          <h5>LONDON</h5>
+          <p>London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back
+            to Roman times. At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’ clock tower and
+            Westminster Abbey, site of British monarch coronations.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./images/MACAU.jpg" class="d-block w-100" height="1000px" alt="...">
+        <div class="carousel-caption d-none d-md-block text-light">
+          <h5>MACAU</h5>
+          <p>Macau is an autonomous region on the south coast of China, across the Pearl River Delta from Hong Kong. A
+            Portuguese territory until 1999, it reflects a mix of cultural influences. Its giant casinos and malls on
+            the Cotai Strip, which joins the islands of Taipa and Coloane</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./images/SINGAPOR.jpg" class="d-block w-100" height="1000px" alt="...">
+        <div class="carousel-caption d-none d-md-block text-light">
+          <h5>SINGAPORE</h5>
+          <p>Singapore, officially the Republic of Singapore, is an island country and city-state in maritime Southeast
+            Asia.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="./images/PARIS.jpg" class="d-block w-100" height="1000px" alt="...">
+        <div class="carousel-caption d-none d-md-block text-light">
+          <h5>PARIS</h5>
+          <p>Paris, France's capital, is a major European city and a global center for art, fashion, gastronomy and
+            culture. Its 19th-century cityscape is crisscrossed by wide boulevards and the River Seine.</p>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <!-- Blogs -->
+    <div class="container">
+
+      <h2 class="subheadings" id="blog"><u>Latest from the Blog</u></h2>
+      <div class="row row-cols-1 row-cols-md-4 g-4 ">
+        <div class="col">
+          <div class="card">
+            <img id="imgblog"
+              src="./images/dubai.jpg"
+              class="card-img-top " alt="...">
+            <div class="card-body">
+              <a class="card-title" href="#">DUBAI</a><br><br>
+              <p class="card-text">Dubai is a city and emirate in the United Arab Emirates known for luxury shopping,
+                ultramodern architecture and a lively nightlife scene. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img id="imgblog"
+              src="./images/new york city.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="card-title" href="#">NEW YORK CITY</a><br><br>
+              <p class="card-text">New York City comprises 5 boroughs sitting where the Hudson River meets the Atlantic
+                Ocean. At its core is Manhattan, a densely populated borough that’s among the world.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img id="imgblog"
+              src="./images/kola lumbur.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="card-title" href="#">KUALA LUMPUR</a><br><br>
+              <p class="card-text">Kuala Lumpur is the capital of Malaysia. Its modern skyline is dominated by the
+                451m-tall Petronas Twin Towers, a pair of glass-and-steel-clad skyscrapers with Islamic motifs.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img id="imgblog"
+              src="./images/istambul.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="card-title" href="#">ISTAMBUL</a><br><br>
+              <p class="card-text">Istanbul is a major city in Turkey that straddles Europe and Asia across the
+                Bosphorus Strait. Its Old City reflects cultural influences of the many empires that once ruled here.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img id="imgblog"
+              src="./images/delhi.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="card-title" href="#">DELHI</a><br><br>
+              <p class="card-text">Delhi, India’s capital territory, is a massive metropolitan area in the country’s
+                north. In Old Delhi, a neighborhood dating to the 1600s, stands the imposing Mughal-era. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img id="imgblog"
+              src="./images/antalya.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="card-title" href="#">ANTALYA</a><br><br>
+              <p class="card-text">Antalya is a Turkish resort city with a yacht-filled Old Harbor and beaches flanked
+                by large hotels. It's a gateway to Turkey's southern Mediterranean region, known as the Turquoise Coast.
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img id="imgblog"
+              src="./images/shensen.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="card-title" href="#">SHENZHEN</a><br><br>
+              <p class="card-text">Shenzhen, in southeastern China, is a modern metropolis that links Hong Kong to
+                China’s mainland. It's known for its shopping destinations, including Luohu Commercial City.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img id="imgblog"
+              src="./images/mumbai wallper.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="card-title" href="#">MUMBAI</a><br><br>
+              <p class="card-text">Mumbai (formerly called Bombay) is a densely populated city on India’s west coast. A
+                financial center, it's India's largest city. On the Mumbai Harbour waterfront stands the iconic Gateway.
+                </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tips bg-secondary text-light" id="traveltips">
+
+      <h2 class="subheadings "><u>Travelling Tips</u></h2>
+
+      <div class="clearfix">
+        <ul class="container fs-5 ">
+          <img
+            src="https://i.pinimg.com/originals/95/c4/32/95c432ec12a48c48e6ba23ba8fd26311.gif"
+            class="col-md-4 float-md-end mb-2 ms-md-3" alt="...">
+          <li>
+            <h3 id="tiph3">Do your research</h3>
+            <p>Get to know your destination in depth before you arrive. Read traveler reviews and consult with locals
+              for information about the safest neighborhoods, places to stay and incidences of crime. Check the State
+              Department's website for country updates and enroll in the Smart Traveler Enrollment Program (STEP).
+
+              Another important travel security precaution is to know whom to call in an emergency. Get the contact
+              information for the nearest embassy or consulate, police station, and other local emergency departments.
+            </p>
+          </li>
+          <li>
+            <h3 id="tiph3">Don’t draw attention</h3>
+            <p>People who look like they’re from out of town are especially vulnerable to crime, so try to blend in as
+              much as you can. Choose inconspicuous clothing that won't attract attention. Be discreet when looking at
+              maps and approach people carefully if you need to ask for directions.
+
+              Also consider investing in protective clothing and gear that will make it more difficult for pickpockets
+              to steal money and other personal items.</p>
+          </li>
+          <li>
+            <h3 id="tiph3">Make copies of important documents</h3>
+            <p>You never know when you might need a copy of your passport, driver’s license or another form of
+              identification. Scan these documents to save online and print out several hard copies. That way, you won’t
+              be scrambling to find proper documentation if you need to get home.</p>
+          </li>
+          <li>
+            <h3 id="tiph3">Safeguard your hotel room</h3>
+            <p>Even if your hotel has strong security measures in place, there are steps you can take to make your room
+              safer. Lock and dead-bolt the door and keep your windows shut. You can buy a jammer, which is a portable
+              device that slips under the door for another layer of protection.
+
+              Try to give the impression that you’re in your room even when you’re away, such as placing the Do Not
+              Disturb sign on the outside of your door and keeping the blinds or windows closed.</p>
+          </li>
+          <li>
+            <h3 id="tiph3">Be aware of your surroundings</h3>
+            <p>Don’t let your guard down to snap the perfect picture for your social media platforms. Keep an eye on
+              your personal belongings at all times and use good judgment when talking to strangers. A big part of the
+              joy of traveling is the opportunities it affords to meet new people and learn about their cultures. But if
+              someone near you is acting suspiciously, or if you feel uncomfortable, leave the area immediately.</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Gallery -->
+    <h2 class="subheadings" id="gallery"><u>Gallery</u></h2>
+    <div class="gallery">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img src="./images/1.jpg"
+              class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+
+            <img src="./images/2.jpg"
+              class="w-100 shadow-1-strong rounded mb-4" alt="Wintry Mountain Landscape" />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="./images/3.jpg"
+              class="w-100 shadow-1-strong rounded mb-4" alt="Mountains in the Clouds" />
+
+            <img src="./images/4.jpg"
+              class="w-100 shadow-1-strong rounded mb-4" alt="Boat on Calm Water" />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img src="./images/5.jpg"
+              class="w-100 shadow-1-strong rounded mb-4" alt="Waves at Sea" />
+
+            <img src="./images/6.jpg"
+              class="w-100 shadow-1-strong rounded mb-4" alt="Yosemite National Park" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- form -->
+
+    <div class="container contact-form" id="contact">
+      <h2 class="subheadings "><u>Contact Us</u></h2>
+      <form method="post">
+        <h3>Drop Us A Message</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group">
+              <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+            </div><br>
+            <div class="form-group">
+              <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+            </div><br>
+            <div class="form-group">
+              <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+            </div><br>
+            <div class="form-group">
+              <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+            </div><br>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <textarea name="txtMsg" class="form-control" placeholder="Your Message *"
+                style="width: 100%; height: 150px;"></textarea>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- footer -->
+    <section id="footer">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+            <ul class="list-unstyled list-inline social text-center">
+              <li class="list-inline-item"><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="fa-brands fa-square-google-plus"></i></a></li>
+              <li class="list-inline-item"><a href="#" target="_blank"><i class="fa fa-envelope"></i></a></li>
+            </ul>
+          </div>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+            <p><u><a href="#">TRAVEL DIARIES</a></u> is a Registered Traveller</p>
+            <p class="h6">© All right Reversed.<a class="text-green ml-2" href="#" target="_blank"></a></p>
+          </div>
+          <hr>
+        </div>
+      </div>
+    </section>
+    <!-- ./Footer -->
+</body>
+
+</html>
